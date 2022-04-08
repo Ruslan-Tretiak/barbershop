@@ -4,46 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@700&family=Roboto&display=swap" rel="stylesheet">
     <title>Barbershop</title>
 </head>
 <body>
-    <header>
-        <a href=""><img src="img/Logo.png" alt="Logo-barbershop"></a>
-        <nav>
-            <ul>
-                <li><a href="">О нас</a></li>
-                <li><a href="">Услуги и цены</a></li>
-                <li><a href="">Мастера</a></li>
-                <li><a href=""></a>Контакты</li>
+    <header class="header">
+        <a href="index.html"><img src="img/Logo.png" alt="Logo-barbershop"></a>
+        <nav class="header-naviganion">
+            <ul class="header-list">
+                <li class="header-items"><a href="#about-us" >О нас</a></li>
+                <li class="header-items"><a href="#price" >Услуги и цены</a></li>
+                <li class="header-items"><a href="#masters" >Мастера</a></li>
+                <li class="header-items"><a href="#contacts" >Контакты</a></li>
             </ul>
         </nav>
-        <a href="tel:+380441111111">+38 044 111 11 11</a>
-        <button type="button">онлайн-запись</button>
+        <a class="header-tel" href="tel:+380441111111">+38 044 111 11 11</a>
+        <button class="header-button" type="button">онлайн-запись</button>
     </header>
     <main>
-        <section>
-            <ul>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer nofollow">Youtube</a></li>
+        <section class="hero">
+            <ul class="hero-list">
+                <li class="hero-items"><a class="hero-link" href="http://" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
+                <li class="hero-items"><a class="hero-link" href="http://" target="_blank" rel="noopener noreferrer nofollow">Youtube</a></li>
             </ul>
-            <p lang="en">A hair salon for men in Kyiv</p>
-            <h1 lang="en">BarberShop</h1>
-            <p>Мы эксперты в модных мужских стрижках.Работаем быстро, осторожно и со вкусом.</p>     
+            <p class="hero-top-text" lang="en">A hair salon for men in Kyiv</p>
+            <h1 class="hero-title" lang="en">BarberShop</h1>
+            <p class="hero-bottom-text" >Мы эксперты в модных мужских стрижках.Работаем быстро, осторожно и со вкусом.</p>     
         </section>
-        <section>
+        <section id="about-us">
             <ul>
                 <li><img src="img/barbershave.svg" alt="барбер бреет бороду"></li>
-                <li><img src="img/barberline.svg" alt="барбер делает кант"></li>
-                <p>О НАС</p>
-                <h2>Лучший Барбершоп твоего города</h2>
-                <p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
-                <p>Мы команда, которая никогда не останавливается на достигнутом 
-                    и жаждет перемен. И когда ты попадешь в руки нашего мастера, 
-                    то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
-                <button type="button">онлайн-запись</button>    
+                <li><img src="img/barberline.svg" alt="барбер делает кант"></li>  
             </ul>
+            <p>О НАС</p>
+            <h2>Лучший Барбершоп твоего города</h2>
+            <p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
+            <p>Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда ты попадешь в руки нашего мастера,то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
+            <button type="button">онлайн-запись</button>  
         </section>
-        <section>
+        <section id="price">
             <p>Проведи время в компании лучших мастеров</p>
             <h2>Услуги и цены</h2>
             <ul>
@@ -102,12 +104,12 @@
                     <span>100</span>
                     <p>Подарков постоянным клиентам</p>
                 </li>
-                <p>старая традиционная школа</p>
-                <h2>Почему приходят именно к нам?</h2>
-                <p>О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать. </p>
             </ul>
+            <p>старая традиционная школа</p>
+            <h2>Почему приходят именно к нам?</h2>
+            <p>О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать. </p>
         </section>
-        <section>
+        <section id="masters">
             <p>для настоящих ценителей атмосферы</p>
             <h2>Наши мастера</h2>
             <ul>
@@ -128,9 +130,38 @@
                 </li>
             </ul>
         </section>
-        
-
+        <section>
+            <p>На латинском языке “барба” означает “борода”</p>
+            <h2 hidden>Галерея</h2>
+            <ul>
+                <li><img src="img/barbercut.png" alt="barber-cut"></li>
+                <li><img src="img/barberuseshavefoam.png" alt="barber-use-shave-foam"></li>
+                <li><img src="img/barberclean.png" alt="barber-clean-get-wet"></li>
+                <li><img src="img/barber-make-ending.png" alt="barber-make-ending"></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Онлайн-запись</h2>
+        </section>
+        <section id="contacts">
+            <address>
+                <ul>
+                    <li><a href="https://goo.gl/maps/4T1Lpt4J9xX54X2D9" target="_blank">ул. Васильковая, 7А
+                        Киев, 08132</a></li>
+                    <li><a href="tel:+380441111111">+38 044 111 11 11</a></li>
+                    <li><a href="mail:barbershop@email.com">barbershop@email.com</a></li>
+                </ul>
+                <p>время работы</p>
+                <p>Ежедневно с 9:00 до 22:00</p>
+            </address>
+        </section>
     </main>
-    
+    <footer>
+        <p>&#169;Copyright 2020</p>
+        <ul>
+            <li><a href="" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer nofollow">Youtube</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
