@@ -1,5 +1,217 @@
-.body{
-    font-family:"Open Sans",'Segoe UI', Tahoma, sans-serif}
+:root {
+    --header-color:#FFFFFF;
+    --main-title-color:#FFFFFF;
+    --second-title-color:#303030;
+    --main-btn-color:#FFFFFF;
+    --second-btn-color:#303030;
+    --accent-color:#FF6C00;
+}
+
+.body {
+    font-family:'Open Sans', sans-serif;
+}
+
+.link{
+    text-decoration: none;
+}  
+.list {
+    list-style: none;
+} 
+/* -------------------HEADER-------------------- */
+.header {
+    background-color: gray;
+}
 .header-link {
-    background-color: blue;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color:var(--header-color);
+}
+.header-link:hover,
+.header-link:focus {
+    color: #FF6C00;
+}
+
+.header-tel {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.header-btn {
+    font-family:inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color:var(--main-btn-color);
+}
+/* -------------------HERO-------------------- */
+.hero-link{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #303030;
+}
+.hero-link:hover,
+.hero-link:focus {
+    color: #FF6C00;
+}
+.hero-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #9da4bd99;
+}
+.hero-title {
+    font-family: 'Raleway', Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: var(--main-title-color);
+}
+.hero-bottom-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+.hero-content {
+    background-color:#303030 ;
+}
+/* -------------------ABOUT-------------------- */
+
+.about-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--second-title-color);
+}
+
+.about-title {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--second-title-color)
+}
+
+.about-bottom-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+.about-text {
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+.about-btm {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--second-btn-color);
+}
+/* -------------------PRICES-------------------- */
+.price {
+    background-color: #303030;
+}
+.price-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase; 
+    color: #9da4bd99;
+}
+
+.price-title {
+    font-family: 'Raleway',Tahoma,sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--main-title-color);
+}
+
+.price-item-text {
+    font-size: 18px;
+    line-height: 1.66;
+    text-align: left;
+    letter-spacing: 0.02em;  
+    color: #9DA4BD;
+}
+
+.price-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--main-btn-color);
+}
+/* -------------------ACHIEVEMENT-------------------- */
+.achievement {}
+
+.achiev-price {
+    font-family:'Open Sans',Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--second-title-color);
+}
+
+.achiev-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
+    color: var(--second-title-color);
+}
+
+.achiev-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--second-title-color);
+}
+
+.achiev-title {
+    font-family: 'Raleway',Tahoma,sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--second-title-color);
+}
+
+.achiev-bottom-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #555555;
 }
