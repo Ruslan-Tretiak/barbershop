@@ -7,8 +7,8 @@
     --accent-color:#FF6C00;
 }
 
-.body {
-    font-family:'Open Sans', sans-serif;
+.body{
+    font-family:'Open Sans', Tahoma, sans-serif;
 }
 
 .link{
@@ -70,7 +70,7 @@
     color: #9da4bd99;
 }
 .hero-title {
-    font-family: 'Raleway', Tahoma, sans-serif;
+    font-family: 'Raleway', Tahoma,sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 72px;
@@ -174,7 +174,7 @@
 .achievement {}
 
 .achiev-price {
-    font-family:'Open Sans',Tahoma, sans-serif;
+    font-family:'Open Sans',sans-serif;
     font-weight: 700;
     font-size: 42px;
     line-height: 1.35;
