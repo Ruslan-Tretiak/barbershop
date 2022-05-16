@@ -5,6 +5,7 @@
     --main-btn-color:#FFFFFF;
     --second-btn-color:#303030;
     --accent-color:#FF6C00;
+    --tipical-margin-btn:20px
 }
 
  p,h1,h2,h3,h4,h5,h6 {
@@ -23,7 +24,7 @@ margin: auto;
 outline: 1px solid red;
 }
 .body{
-    font-family:'Open Sans', Tahoma, sans-serif;
+    font-family:"Open Sans", Tahoma, sans-serif;
 }
 
 .link{
@@ -76,6 +77,18 @@ margin-right: 40px;
 .cursor {
     cursor: pointer;
 }
+.btn {
+    min-width: 160px;
+    height: 40px;
+    font-family: inherit;
+    font-weight: 600;
+    font-style: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+}
 .header-btn {
     font-family:inherit;
     font-weight: 600;
@@ -85,8 +98,20 @@ margin-right: 40px;
     text-transform: uppercase;
     color:var(--main-btn-color);
 }
+.header-btn:hover {
+    color: var(--main-btn-color);
+    background-color: var(--accent-color);
+}
+
 
 /* -------------------HERO-------------------- */
+.hero .conteiner {
+display: flex;
+}
+.hero-list {
+    width: 93px;
+}
+
 .hero-link{
     font-weight: 600;
     font-size: 11px;
@@ -99,14 +124,16 @@ margin-right: 40px;
     color: #FF6C00;
 }
 .hero-top-text {
+    margin-bottom: var(--tipical-margin-btn);
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #9da4bd99;
+    color: rgba(157, 164, 189, 0.6);
 }
 .hero-title {
+    margin-bottom: var(--tipical-margin-btn);
     font-family: 'Raleway', Tahoma,sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -115,16 +142,22 @@ margin-right: 40px;
     letter-spacing: 0.05em;
     color: var(--main-title-color);
 }
-.hero-bottom-text {
+.bottom-text {
+    font-family: 'Open Sans';
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.67;
-    letter-spacing: 0.02em;
+    line-height: 1,67;
+    letter-spacing: 0.02em
+}
+.hero-bottom-text {
     color: #9DA4BD;
+    max-width: 400px;
 }
 .hero-content {
     background-color:#303030 ;
     padding: 272px 0 206px 96px;
+    flex-grow: 1;
 }
 /* -------------------ABOUT-------------------- */
 
@@ -136,7 +169,9 @@ margin-right: 40px;
     text-transform: uppercase;
     color: var(--second-title-color);
 }
-
+.about-list {
+    display: flex;  
+}
 .about-title {
     font-family: 'Raleway';
     font-weight: 700;
