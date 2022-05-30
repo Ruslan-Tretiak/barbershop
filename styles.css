@@ -133,7 +133,6 @@ display: flex;
     color: rgba(157, 164, 189, 0.6);
 }
 .hero-title {
-    margin-bottom: var(--tipical-margin-btn);
     font-family: 'Raleway', Tahoma,sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -141,6 +140,7 @@ display: flex;
     line-height: 1.18;
     letter-spacing: 0.05em;
     color: var(--main-title-color);
+    margin-bottom: var(--tipical-margin-btn);
 }
 .bottom-text {
     font-family: 'Open Sans';
@@ -160,7 +160,10 @@ display: flex;
     flex-grow: 1;
 }
 /* -------------------ABOUT-------------------- */
-
+.about {
+    padding-top: 139px;
+    padding-bottom: 121px;
+}
 .about-top-text {
     font-weight: 600;
     font-size: 11px;
@@ -168,6 +171,7 @@ display: flex;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--second-title-color);
+    margin-bottom: var(--tipical-margin-btn);
 }
 .about-list {
     display: flex;  
@@ -178,7 +182,8 @@ display: flex;
     font-size: 42px;
     line-height: 1.16;
     letter-spacing: 0.05em;
-    color: var(--second-title-color)
+    color: var(--second-title-color);
+    margin-bottom: var(--tipical-margin-btn);
 }
 
 .about-bottom-text {
@@ -186,6 +191,7 @@ display: flex;
     line-height: 1.67;
     letter-spacing: 0.02em;
     color: #555555;
+    margin-bottom: var(--tipical-margin-btn);
 }
 
 .about-text {
@@ -193,6 +199,7 @@ display: flex;
     line-height: 1.86;
     letter-spacing: 0.02em;
     color: #555555;
+    margin-bottom: 40px;
 }
 
 .about-btn {
@@ -215,6 +222,8 @@ display: flex;
     letter-spacing: 0.1em;
     text-transform: uppercase; 
     color: #9da4bd99;
+    padding-top: 130px;
+    margin-bottom: var(--tipical-margin-btn);
 }
 
 .price-title {
@@ -224,6 +233,7 @@ display: flex;
     line-height: 1.16;
     letter-spacing: 0.05em;
     color: var(--main-title-color);
+    
 }
 
 .price-item-text {
