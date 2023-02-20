@@ -42,7 +42,7 @@ outline: 1px solid red;
     margin-right: 70px;
 }
 .header-items:not(:last-child)  {
-margin-right: 40px;
+    margin-right: 40px;
 }
 .header-list {
     display: flex;
