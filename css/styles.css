@@ -63,7 +63,7 @@ outline: 1px solid red;
 }
 .header-link:hover,
 .header-link:focus {
-    color: #FF6C00;
+    color:var(--accent-color);
 }
 
 .header-tel {
@@ -71,7 +71,7 @@ outline: 1px solid red;
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.1em;
-    color: #FFFFFF;
+    color: var(--main-title-color);
 }
 
 .cursor {
