@@ -336,6 +336,12 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--accent-color);
+
+}
+.masters-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 /* ==========================/MASTERS===================== */
 
@@ -344,5 +350,9 @@ body{
     margin-bottom: 44px;
 
 }
-
+.process-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
