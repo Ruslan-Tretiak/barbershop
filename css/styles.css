@@ -30,7 +30,6 @@ button {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 1px solid red;
 }
 body{
     font-family:"Open Sans", Tahoma, sans-serif;
@@ -45,16 +44,28 @@ body{
 /* -------------------COMPONENTS-------------------- */
 .section {
     padding-top: 130px;
-    padding: 130px;
+    padding-bottom: 130px;
 }
 
-.subtitle {
+.suptitle {
+    display: flex;
+    align-items: center;
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     margin-bottom: 20px;
+}
+.suptitle::before {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: tomato;
+    margin-right: 20px;
+
+
 }
 .title {
     font-family: 'Raleway';
@@ -154,8 +165,9 @@ body{
 
 
 /* -------------------HERO-------------------- */
-.hero .conteiner {
+.hero {
     display: flex;
+    max-width: 1072px;
 }
 .hero-list {
     width: 93px;
@@ -202,21 +214,42 @@ body{
     max-width: 400px;
 }
 .hero-content {
-    background-color:#303030 ;
+    /* background-color:#303030 ; */
     padding: 272px 0 206px 96px;
     flex-grow: 1;
 }
+.overlay {
+    min-width: 1072px;
+    height: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(25, 28, 38, 0.2),rgba(25, 28, 38, 0.2)),
+    url(../img/Slider\ img\ 3-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 /* -------------------ABOUT-------------------- */
 .about {
-    padding-top: 139px;
-    padding-bottom: 121px;
+
 }
+.about-img {
+    display: block;
+    min-width: 100%;
+    height: auto;
+}
+.about-text-block {
+}
+
+
 .about-top-text {
     color: var(--second-title-color);
     margin-bottom: var(--tipical-margin-btn);
 }
 .about-list {
-    display: flex;  
+    display: flex;
+    justify-content: start; 
+    gap: 30px;
 }
 .about-title {
     color: var(--second-title-color);
@@ -253,7 +286,6 @@ body{
 }
 .price-top-text {
     color: #9da4bd99;
-    padding-top: 130px;
     margin-bottom: var(--tipical-margin-btn);
 }
 
@@ -317,10 +349,14 @@ body{
     background-color:var(--background-page-color) ;
 }
 .master-top-text {
-    color: var(--second-title-color);
+    color: var(--second-title-color); 
 }
-.master-title {
+.masters-img {
+    display: block;
+    min-height: 100%;
+    height: auto;
 }
+
 .master-name {
     font-weight: 400;
     font-size: 18px;
@@ -341,18 +377,27 @@ body{
 .masters-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
 }
 /* ==========================/MASTERS===================== */
 
 /* ==========================GALLARY===================== */
-.gallary-subtitle {
+.gallary-suptitles {
     margin-bottom: 44px;
 
+}.gallary {
+ 
+}
+.gallary-img {
+    display: block;
+    min-height: 100%;
+    height: auto;
 }
 .process-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
 }
 
