@@ -239,9 +239,12 @@ body{
     height: auto;
 }
 .about-text-block {
+    display: block;
 }
 
+.about-block {
 
+}
 .about-top-text {
     color: var(--second-title-color);
     margin-bottom: var(--tipical-margin-btn);
