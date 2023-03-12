@@ -19,11 +19,11 @@ ol {
 }
 body {
     font-family: 'Open Sans', sans-serif;
+
 }
 button {
     cursor:pointer;
 }
-
 .list {
     list-style:none;
 }
@@ -146,6 +146,7 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    justify-content: left;
 }
 .hero-subtitle {
     font-weight: 600;
@@ -229,27 +230,79 @@ button {
 .achievement-box {
     display: flex;
 }
+.achievement-count {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+.achievement-block {
 
-
+}
+.achievement-block-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #303030;
+}
 
 
 
  /*---------------------------MASTERS---------------------------- */
-.masters-block {
+.master-section {
+    background-color: #F7F7F7;
+}
+ .masters-block {
     display: flex;
+    text-align: center;
     gap: 30px;
+    
+
 }
 .masters-box {
 
 }
+.masters-img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+.sicial-link-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+.sicial-link-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
 .profession {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.35;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FF6C00;
 }
-.masters-name {
-    text-align: center;
+ /*---------------------------GALLARY---------------------------- */
+.gallary-block {
+    display: flex;
+    gap: 30px;
+}
+.gallary-subtitle {
+    margin-bottom: 44px;
+}
+.gallary-img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
