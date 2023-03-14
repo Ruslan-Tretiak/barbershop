@@ -22,17 +22,17 @@ body {
 
 }
 button {
-    cursor:pointer;
+    cursor: pointer;
 }
 .list {
-    list-style:none;
+    list-style: none;
 }
 
 .link {
     text-decoration: none;
 }
 .conteiner {
-    width: 1170px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-right: 15px;
@@ -76,8 +76,8 @@ button {
 }
 
 .btn {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
+    font-family:inherit;
+    min-width: 163px;
     font-weight: 600;
     font-size: 12px;
     line-height: 1.36;
@@ -86,38 +86,49 @@ button {
     color: #FFFFFF;
     border: 1px solid #FF6C00;
     border-radius: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: transparent;
+
 }
 /*---------------------------HEADER---------------------------- */
 .header {
-    display:flex;
-    padding-top: 52px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    position: absolute;
 }
-.header-box {
-
+.header-conteiner {
+    display: flex;
+    align-items: center;
 }
 .header-nav {
     display: flex;
 }
 .header-menu {
     display:flex;
+    align-items: center;
     gap: 30px;
-    margin-left: 100px;
+    margin-right: 0 auto;
 }
-.header-contacts {
-    margin-left:auto;
-}
+
 .header-btn {
-    margin-left:43px;
 }
 .header-btn:hover,
 .header-btn:focus {
     background-color: #FF6C00;
 }
-.menu-link:hover,
-.menu-link:focus {
+.logo {
+    margin-right: 132px;
+}
+.header-font:hover,
+.header-font:focus {
     color: #FF6C00;
     cursor: pointer;
-
 }
 .header-font {
     font-weight: 600;
@@ -129,24 +140,46 @@ button {
 .tel {
     font-weight: 600;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 1.33;
     letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: red;
+    color:#FFFFFF;
+    margin-right: 43px;
 }
+
+
+
+
+
+
+
+
 /*---------------------------HERO---------------------------- */
+.hero-container {
+    display: flex;
+}
+.hero-list {
+    width: 100px;
+    
+}
+.hero-item {
+    
+}
+.hero-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #303030;
+}
 .hero {
-    max-width: 1070px;
-    padding-left: 100px;
-    padding-bottom: 204px;
-    padding-top: 183px;
-    padding-right: 526px;
+    background-color: #7b7575;
+    flex-grow: 1;
+    padding: 272px 100px 208px;
     background-image:linear-gradient(rgba(25, 28, 38, 0.2),rgba(25, 28, 38, 0.2)), 
     url(../img/Slider\ img\ 3-2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    justify-content: left;
 }
 .hero-subtitle {
     font-weight: 600;
@@ -206,6 +239,8 @@ button {
     margin-bottom: 44px;
 }
 .price-btn {
+    display: flex;
+    margin: 0 auto;
     margin-top: 40px;
 }
 .price-img {
