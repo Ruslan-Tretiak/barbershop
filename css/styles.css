@@ -138,6 +138,7 @@ button {
     color: #FFFFFF;
 }
 .tel {
+    font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
@@ -145,11 +146,11 @@ button {
     color:#FFFFFF;
     margin-right: 43px;
 }
-
-
-
-
-
+.contact-block {
+    margin-left: auto;
+    padding-right: 17px;
+    
+}
 
 
 
@@ -158,10 +159,11 @@ button {
     display: flex;
 }
 .hero-list {
-    width: 100px;
-    
-}
-.hero-item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transform: rotate(-90deg) translateY(100%);
+    transform-origin: bottom left;
     
 }
 .hero-link {
@@ -203,6 +205,17 @@ button {
     line-height: 1.67;
     letter-spacing: 0.02em;
     color: #9DA4BD;
+}
+.social-block {
+    width: 100px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 27px;
+    padding-bottom: 40px;
+}
+
+.hero-list {
+    
 }
 /*---------------------------ABOUT---------------------------- */
 .about {
